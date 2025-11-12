@@ -29,7 +29,8 @@ public class PreOrderIterative {
 
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
-
+        //stack -->
+        //result --> 1,2,4,5,3,6
         while (!stack.isEmpty()) {
             TreeNode current = stack.pop();
             result.add(current.val);
@@ -64,4 +65,7 @@ public class PreOrderIterative {
 
         System.out.println("Preorder Traversal: " + preorder);
     }
+    //root
+    //left
+    //right
 }
