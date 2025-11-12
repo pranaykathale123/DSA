@@ -44,7 +44,14 @@ public class PostOrderIterative {
 
         return postorder;
     }
-
+    /*
+              1
+             / \
+            2   3
+           / \   \
+          4   5   6
+     */
+    //4,5,2,6,3,1
     public static void main(String[] args) {
         PostOrderIterative obj = new PostOrderIterative();
 
