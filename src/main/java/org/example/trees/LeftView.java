@@ -36,7 +36,7 @@ public class LeftView {
         //      \     \
         //       5     4
         //
-        // Right view = [1, 3, 4]
+        // left view = [1, 2, 5]
 
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
